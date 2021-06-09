@@ -1,6 +1,6 @@
-# PowerSupplyControl
+# PowerSupplyControlInstek
 
-The PowerSupplyControl folder contains a console applications to remote control power supply INSTEK.
+The PowerSupplyControlInstek folder contains a console applications to remote control power supply INSTEK.
 
 Please note:
 
@@ -8,7 +8,7 @@ Please note:
 
 *	Make sure, that the INSTEK power supply device connected to your bench matches the configuration settings.
 *	For "GWinstek GPD-2303S" check these settings on the following documentation, page 36: https://www.tme.eu/Document/d01836c0b53439b01d485be8e53686dd/GPD-3303+User+Manual+20080521.pdf
-*	Settings are stored in PowerSupplyControl\settings.cfg file
+*	Settings are stored in PowerSupplyControlInstek\settings.cfg file
 *	By default, these settings are:
 
 		baud_rate = 115200 (despite that in the documentation is written 9600, this power supply works on 115200)
